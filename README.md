@@ -28,11 +28,11 @@ The Dataset used in this project is a large-scale complex and cross-domain seman
  
 `tables.json` contains the following information for each database:
  
-·      `db_id`: database id
-·      `table_names_original`: original table names stored in the database.
-·      `table_names`: cleaned and normalized table names. 
-·    `column_names_original`: original column names stored in the database. Each column looks like: [0, "id"]. 0 is the index of table names in table_names, which is a city in this case. "id" is the column name.
-·      `column_names`: cleaned and normalized column names.
-·      `column_types`: data type of each column
-·      `foreign_keys`: foreign keys in the database. 
-·      `primary_keys`: primary keys in the database. Each number is the index of column_names.
+- `db_id`: database id
+- `table_names_original`: original table names stored in the database.
+- `table_names`: cleaned and normalized table names. 
+- `column_names_original`: original column names stored in the database. Each column looks like: [0, "id"]. 0 is the index of table names in table_names, which is a city in this case. "id" is the column name.
+- `column_names`: cleaned and normalized column names.
+- `column_types`: data type of each column
+- `foreign_keys`: foreign keys in the database. 
+- `primary_keys`: primary keys in the database. Each number is the index of column_names.
