@@ -6,6 +6,8 @@ The Dataset used in this project is a large-scale complex and cross-domain seman
 
 ### Citation
 
+https://github.com/taoyds/spider/blob/master/README.md#citation
+
 @inproceedings{Yu&al.18c,
   title     = {Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task},
   author    = {Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and Zilin Zhang and Dragomir Radev}
