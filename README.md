@@ -1,4 +1,4 @@
-# DATA_606_Capstone_Project
+# Natural Language Text to SQL Query Conversion Using NLP and Deep Learning
 
 
 
