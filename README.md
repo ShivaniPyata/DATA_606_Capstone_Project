@@ -20,11 +20,11 @@ The Dataset used in this project is a large-scale complex and cross-domain seman
 ### Data Content
 
 `train.json` and `dev.json` contain the following fields:
-·      `question`: the natural language question
-·      `question_toks`: the natural language question tokens
-·      `db_id`: the database id to which this question is addressed.
-·      `query`: the SQL query corresponding to the question.
-·      `query_toks`: the SQL query tokens corresponding to the question.
+- `question`: the natural language question
+- `question_toks`: the natural language question tokens
+- `db_id`: the database id to which this question is addressed.
+- `query`: the SQL query corresponding to the question.
+- `query_toks`: the SQL query tokens corresponding to the question.
  
 `tables.json` contains the following information for each database:
  
