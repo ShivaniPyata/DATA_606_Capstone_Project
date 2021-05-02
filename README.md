@@ -10,13 +10,15 @@ The Dataset used in this project is a large-scale complex and cross-domain seman
 
 
 ```
-@inproceedings{Yu&al.18c,
-  title     = {Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task},
-  author    = {Tao Yu and Rui Zhang and Kai Yang and Michihiro Yasunaga and Dongxu Wang and Zifan Li and James Ma and Irene Li and Qingning Yao and Shanelle Roman and Zilin Zhang and Dragomir Radev}
-  booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
-  address   = "Brussels, Belgium",
-  publisher = "Association for Computational Linguistics",
-  year      = 2018
+@article{zhongSeq2SQL2017,
+  author    = {Victor Zhong and
+               Caiming Xiong and
+               Richard Socher},
+  title     = {Seq2SQL: Generating Structured Queries from Natural Language using
+               Reinforcement Learning},
+  journal   = {CoRR},
+  volume    = {abs/1709.00103},
+  year      = {2017}
 }
 ```
 ### Data Content
