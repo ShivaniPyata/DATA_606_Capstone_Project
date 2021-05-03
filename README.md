@@ -4,11 +4,9 @@
 
 ## Dataset:
 
-The Dataset used in this project is a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by Yale students. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables covering 138 different domains.
+The Dataset used in this project is a large crowd-sourced dataset for developing natural language interfaces for relational databases. This dataset consists of 80654 hand-annotated examples of questions and SQL queries distributed across 24241 tables from Wikipedia. The data files can be found in the Data folder. It is released along with the paper "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning".
 
 ### Citation
-
-
 ```
 @article{zhongSeq2SQL2017,
   author    = {Victor Zhong and
@@ -23,20 +21,24 @@ The Dataset used in this project is a large-scale complex and cross-domain seman
 ```
 ### Data Content
 
-`train.json` and `dev.json` contain the following fields:
+80654 questions in the dataset is divided into three seperate files for train, validation, and test files, each consisting of 56355, 8421, 15878 natural language and SQL queries respectively.
+
+`train.jsonl` ,`dev.jsonl` and 'test.jsonl' contains the following fields:
+
+- `table_id`: the database id to which this question is addressed.
 - `question`: the natural language question
-- `question_toks`: the natural language question tokens
-- `db_id`: the database id to which this question is addressed.
-- `query`: the SQL query corresponding to the question.
-- `query_toks`: the SQL query tokens corresponding to the question.
+- `sql`: the SQL query corresponding to the question.
  
-`tables.json` contains the following information for each database:
- 
-- `db_id`: database id
-- `table_names_original`: original table names stored in the database.
-- `table_names`: cleaned and normalized table names. 
-- `column_names_original`: original column names stored in the database. Each column looks like: [0, "id"]. 0 is the index of table names in table_names, which is a city in this case. "id" is the column name.
-- `column_names`: cleaned and normalized column names.
-- `column_types`: data type of each column
-- `foreign_keys`: foreign keys in the database. 
-- `primary_keys`: primary keys in the database. Each number is the index of column_names.
+`train.tables.jsonl`,`dev.tables.jsonl`, `test.tables.jsonl`  contains the following information for each database:
+
+- `id`: database id
+- `header`: table header
+- `types`: datatypes for header 
+- `rows`: corresponding rows of the table
+- `name`: original table names stored in the database.
+- `page_title`: name of the page
+- `section_title`: name of the section
+- `caption`: table caption
+- `page_id`: Page id
+
+
