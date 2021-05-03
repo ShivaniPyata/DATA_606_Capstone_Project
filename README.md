@@ -41,4 +41,6 @@ The Dataset used in this project is a large crowd-sourced dataset for developing
 - `caption`: table caption
 - `page_id`: Page id
 
+## Steps for execution
 
+`preprocessing.ipynb` file helps in creating the tokenized dataset. These datasets consists of tokenized version of natural language question and SQL query. It also helps for the exploratory data analysis of the datasets.
