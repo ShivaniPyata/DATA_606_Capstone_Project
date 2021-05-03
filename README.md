@@ -23,7 +23,7 @@ The Dataset used in this project is a large crowd-sourced dataset for developing
 
 80654 questions in the dataset is divided into three seperate files for train, validation, and test files, each consisting of 56355, 8421, 15878 natural language and SQL queries respectively.
 
-`train.jsonl` ,`dev.jsonl` and 'test.jsonl' contains the following fields:
+`train.jsonl` ,`dev.jsonl` and `test.jsonl` contains the following fields:
 
 - `table_id`: the database id to which this question is addressed.
 - `question`: the natural language question
