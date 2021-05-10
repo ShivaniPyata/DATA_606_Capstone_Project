@@ -46,3 +46,5 @@ The Dataset used in this project is a large crowd-sourced dataset for developing
 `preprocessing.ipynb` file helps in creating the tokenized dataset. These datasets consists of tokenized version of natural language question and SQL query. It also helps for the exploratory data analysis of the datasets.
 
 `Encoder-Decoder-attention.ipynb` file contains seq2seq Encoder-Decoder with attention target model. Upon completion of the run, the code will generate loss graph.
+
+`txtsql.ipynb` file contains seq2sql model proposed in the research paper "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning". Upon completion of the run, the code will generate loss graph and also logical and execution accuracy.
